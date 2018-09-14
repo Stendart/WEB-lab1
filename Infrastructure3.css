@@ -1,0 +1,32 @@
+body {
+	font-size: 120%;
+}
+.map {
+	margin: auto;
+	width: 80%;
+	height: 70vh;
+	margin-top: 3%;
+}
+
+header nav ul {
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	list-style-type: none;
+}
+
+p {
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+}
+
+section {
+	margin: 0 10% ;
+}
+
+.list {
+	list-style-type: none;
+}
