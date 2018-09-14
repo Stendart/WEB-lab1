@@ -1,0 +1,44 @@
+body {
+	background-image: url('Фото города/fon.jpg');
+	background-size: cover;
+}
+
+header nav ul {
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	list-style-type: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 120%;
+	text-align: justify;
+}
+
+section ul {
+	font-size: 120%;
+}
+
+section {
+	margin: 0 10% ;
+}
+
+table {
+	margin: auto;
+	border: 2px solid #fff;
+	border-collapse: collapse;
+	border-color: #fff;
+}
+
+tr {
+	border: 2px solid #fff;
+}
+
+td {
+	border: 2px solid #fff;
+	padding: 1%;
+}
