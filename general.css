@@ -1,0 +1,38 @@
+body {
+	background-image: url('Фото города/fon.jpg');
+	/*background-size: cover;*/
+	background-size: 100% 100vh;
+	background-attachment: fixed;
+}
+
+header nav ul {
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	list-style-type: none;
+}
+
+header a {
+	text-decoration: none;
+	font-size: 120%;
+	color:#FA8072;
+	text-shadow: 1px 1px 2px;/*----------------*/
+}
+
+header a:hover {
+	color: #f09;
+	 /*filter: brightness(250%);*/
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	/*text-decoration: none;*/
+}
+
+.wrapper {
+	background-color: rgba(220, 220, 220, 0.3);
+	margin: 0 10% ;
+}

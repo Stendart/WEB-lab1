@@ -1,25 +1,6 @@
-body {
-	background-image: url('Фото города/fon.jpg');
-	background-size: cover;
-}
 .gallery {
 	width: 100%;
 	height: 100vh;
-	
-}
-
-header nav ul {
-	display: flex;
-	flex-direction:row;
-	justify-content:space-around;
-	list-style-type: none;
-}
-
-footer ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	list-style-type: none;
 }
 
 .row {

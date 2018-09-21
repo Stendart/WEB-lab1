@@ -1,18 +1,15 @@
-body {
+section p, section ul {
 	font-size: 120%;
 }
 .map {
-	margin: auto;
-	width: 80%;
+	/*margin: auto;
+	float: right;*/
+	position: absolute;
+	top: 50%;
+	right: 1%;
+	width: 60%;
 	height: 70vh;
 	margin-top: 3%;
-}
-
-header nav ul {
-	display: flex;
-	flex-direction:row;
-	justify-content:space-around;
-	list-style-type: none;
 }
 
 p {
@@ -24,7 +21,8 @@ h2 {
 }
 
 section {
-	margin: 0 10% ;
+	position: relative; /* Паника, может всё накрыться!*/
+	margin: 0 3% ;
 }
 
 .list {

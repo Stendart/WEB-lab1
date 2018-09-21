@@ -1,15 +1,3 @@
-body {
-	background-image: url('Фото города/fon.jpg');
-	background-size: cover;
-}
-
-header nav ul {
-	display: flex;
-	flex-direction:row;
-	justify-content:space-around;
-	list-style-type: none;
-}
-
 h2 {
 	text-align: center;
 }
@@ -24,7 +12,7 @@ section ul {
 }
 
 section {
-	margin: 0 10% ;
+	margin: 0 3% ;
 }
 
 table {
@@ -42,3 +30,4 @@ td {
 	border: 2px solid #fff;
 	padding: 1%;
 }
+
