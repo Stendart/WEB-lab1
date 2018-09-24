@@ -1,3 +1,6 @@
+body {
+	height: 96vh;
+}
 form {
 	border: 2px solid #2a9;
 	width: 50%;
@@ -17,6 +20,21 @@ div input {
 	width: 30%;
 }
 
+input[type = 'E-mail']:invalid {
+	background-color: #ffdddd;
+}
+
+input[type = 'E-mail']:valid {
+  background-color: #B0C4DE;
+}
+
+input:required {
+	font-weight: bold;
+}
+
+input:optional:not([type=button]) {
+	background-color: #E0FFFF;
+}
 
 form img {
 	 width: 20%;
@@ -31,4 +49,11 @@ form img {
 	margin-bottom: 3%;
 	background-color: #FF7F50;
 	width: 30%;
+}
+[type=button]:active {
+	color: #FFEFD5;
+}
+
+footer {
+	margin-top: 8%;
 }

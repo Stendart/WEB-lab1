@@ -19,9 +19,20 @@ header a {
 	text-shadow: 1px 1px 2px;/*----------------*/
 }
 
-header a:hover {
+header a:hover::before {
+	content: '$';
 	color: #f09;
 	 /*filter: brightness(250%);*/
+}
+
+header a:hover::after {
+	content: '$';
+	color: #f09;
+}
+
+
+footer a:visited {
+	color: #00FFFF;
 }
 
 footer ul {
